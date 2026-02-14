@@ -16,17 +16,6 @@ python3 -m http.server 8080
 
 Then open: <http://localhost:8080>
 
-## Run on GitHub Pages
-
-This repository includes a Pages deployment workflow at `.github/workflows/deploy-pages.yml`.
-
-1. Push this repo to GitHub.
-2. In GitHub: **Settings → Pages**, set **Source** to **GitHub Actions**.
-3. Push to `main` (or run the workflow manually from the **Actions** tab).
-4. Your app will be published at:
-
-   `https://<your-username>.github.io/<repo-name>/`
-
 ## Share on your local network (optional)
 
 Start the same command on your machine and open from another device on the same network:
